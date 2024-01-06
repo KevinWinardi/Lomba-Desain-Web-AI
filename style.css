@@ -8,9 +8,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html {
+html,body {
+    width: auto!important;
     font-size: 65%;
-    overflow-x: hidden;
+    overflow-x: hidden!important;
 }
 
 main{
@@ -147,7 +148,7 @@ h2{
     backdrop-filter: blur(10px);
     border: 1px solid gray;
     list-style: none;
-    z-index: 10;
+    z-index: 1001;
 }
 
 .navbar.scroll{
@@ -590,5 +591,8 @@ footer p{
         position: relative;
         width: 60%;
         left: 20.5%;
+    }
+    .form-input{
+        width: 150%;
     }
 }
